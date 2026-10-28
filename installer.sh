@@ -15,7 +15,7 @@ sudo apt install -y git python3 python3-pip python3-virtualenv screen
 # Clone the repository
 if [ ! -d "BanallRepo" ]; then
     echo -e "${GREEN}Cloning the repository...${NC}"
-    git clone https://github.com/stkeditz/BanallRepo.git
+    git clone https://github.com/Pallavisarkaar07/BanallRepo.git
     cd BanallRepo || { echo -e "${RED}Failed to enter repository directory!${NC}"; exit 1; }
 else
     echo -e "${RED}Repository already exists. Skipping cloning.${NC}"
